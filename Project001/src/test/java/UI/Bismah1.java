@@ -18,9 +18,9 @@ public class Bismah1
 		    	
 	WebDriverManager.chromedriver().setup();
 	ChromeDriver driver= new ChromeDriver();
-	driver.get("https://hbgroupsites.inveloagency.nl/mystaging01/wp-admin/");
-	driver.findElement(By.id("user_login")).sendKeys("moeez");
-    driver.findElement(By.id("user_pass")).sendKeys("0m6TmSsdKZ6AEP$NtDbtuo)*");
+	driver.get("xyz");
+	driver.findElement(By.id("user_login")).sendKeys("xyz");
+    driver.findElement(By.id("user_pass")).sendKeys("xyz");
     driver.findElement(By.cssSelector("#wp-submit")).click();
     
    
