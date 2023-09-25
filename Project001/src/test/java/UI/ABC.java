@@ -121,7 +121,7 @@ public class ABC
         else 
         
         {
-        	System.out.println("Dark mode is working");
+        	System.out.println("Dark mode is not working");
         }
         
         
